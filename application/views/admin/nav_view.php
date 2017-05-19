@@ -42,6 +42,7 @@
                       <li><a href="<?php echo base_url(); ?>admin/ContenidoAdmin/slider">SLIDER</a></li>
                       <li><a href="<?php echo base_url(); ?>admin/ContenidoAdmin/parametria">PARAMETRIA</a></li>
                       <li><a href="<?php echo base_url(); ?>admin/ContenidoAdmin/eventos">EVENTOS</a></li>
+                      <li><a href="<?php echo base_url(); ?>admin/ContenidoAdmin/exito">CASOS DE ÉXITO</a></li>
                     </ul>
                   </li>
                 </ul>

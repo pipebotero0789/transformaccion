@@ -60,7 +60,7 @@
                         <label class="control-label col-md-3 col-sm-3 col-xs-12" for="Descripcion">Subtitulo <span class="required">*</span>
                         </label>
                         <div class="col-md-6 col-sm-6 col-xs-12">
-                          <textarea id="Descripcion" required="required" name="Descripcion" class="form-control col-md-7 col-xs-12" value=""><?php echo (!is_null($datosCarga)) ? $datosCarga[0]->slide_subtitulo : '' ;?></textarea>
+                          <textarea id="Descripcion" name="Descripcion" class="form-control col-md-7 col-xs-12" value=""><?php echo (!is_null($datosCarga)) ? $datosCarga[0]->slide_subtitulo : '' ;?></textarea>
                         </div>
                       </div>
                       <div class="item form-group">
@@ -89,7 +89,7 @@
                       <div class="item form-group">
                         <label class="control-label col-md-3 col-sm-3 col-xs-12">Imagen Pequeña</label>
                         <div class="col-md-6 col-sm-6 col-xs-12">
-                          <input type="text" id="URL2" name="URL2" required="required" placeholder="" class="form-control col-md-7 col-xs-12" readonly="readonly" value="<?php echo (!is_null($datosCarga)) ? $datosCarga[0]->slide_urlpeque : '' ;?>">
+                          <input type="text" id="URL2" name="URL2" placeholder="" class="form-control col-md-7 col-xs-12" readonly="readonly" value="<?php echo (!is_null($datosCarga)) ? $datosCarga[0]->slide_urlpeque : '' ;?>">
                           <button type="button" class="btn btn-default" data-toggle="modal" data-target=".bs-example-modal-sm2" >Cargar Imagen</button>
                         </div>
                       </div>
@@ -208,7 +208,7 @@
           <h4 class="modal-title" id="myModalLabel">Cargar imagen</h4>
         </div>
         <div class="modal-body">
-          <form action="<?php echo base_url(); ?>/admin/Home/upload/1280/720/URL" class="dropzone" id="my-awesome-dropzone" ></form>
+          <form action="<?php echo base_url(); ?>/admin/Home/upload/1280/560/URL" class="dropzone" id="my-awesome-dropzone" ></form>
         </div>
         <div id="Alerta"></div>
         <div class="modal-footer">

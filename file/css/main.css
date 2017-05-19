@@ -1,13 +1,11 @@
-@import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,600,700,300,800);
-
-
+@import url('https://fonts.googleapis.com/css?family=Gudea:400,700');
 /*************************
 *******Typography******
 **************************/
 
 body {
   background: #fff;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Gudea', sans-serif;
   color:#4e4e4e;
   line-height: 22px;
 }
@@ -18,9 +16,10 @@ h3,
 h4,
 h5,
 h6 {
-  font-weight: 600; 
-  font-family: 'Open Sans', sans-serif;
+  font-weight: 700; 
+  font-family: 'Gudea', sans-serif;
   color:#4e4e4e;
+  text-transform: uppercase;
 }
 
 h1{
@@ -266,12 +265,12 @@ input.search-form:hover {
   border-radius: 0;
   margin-bottom: 0;
   background: #151515;
-  padding: 15px 0;
+  padding: 0;
   padding-bottom: 0;
 }
 
  .navbar-nav{
-  margin-top: 12px;
+  margin-top: 30px;
  }
 
 .navbar-nav>li{
@@ -373,7 +372,7 @@ input.search-form:hover {
 }
 
 #main-slider .carousel .carousel-content {
-  margin-top: 150px;
+  margin-top: 50px;
 }
 
 #main-slider .carousel .slide-margin{
@@ -409,7 +408,7 @@ input.search-form:hover {
   position: absolute;
   width: 100%;
   display: block !important;
-  height: 730px;
+  height: 550px;
   -webkit-transition: opacity ease-in-out 500ms;
   -moz-transition: opacity ease-in-out 500ms;
   -o-transition: opacity ease-in-out 500ms;
@@ -604,9 +603,14 @@ input.search-form:hover {
 
 .recent-work-wrap {
   position: relative;
+  padding:20px;
 }
 
 .recent-work-wrap img{
+  width: 100%;
+}
+
+.recent-work-wrap frame{
   width: 100%;
 }
 
@@ -1175,6 +1179,10 @@ a.accordion-toggle  i{
   margin: 60px 0;
 }
 
+.team{
+  margin-top: 5%;
+}
+
 .team h4 {
   margin-top: 0;
   text-transform: uppercase;
@@ -1242,6 +1250,7 @@ ul.social_icons li  a i{
 
 .team .social_icons .fa-facebook:hover, 
 .team .social_icons .fa-twitter:hover, 
+.team .social_icons .fa-instagram:hover, 
 .team .social_icons .fa-google-plus:hover {
   transform: rotate(360deg);
   -ms-transform:rotate(360deg);
@@ -1489,7 +1498,10 @@ ul.social_icons li  a i{
 }
 
 .clients-area {
-  padding: 60px;
+  padding-left: 60px;
+  padding-right: 60px;
+  padding-top: 60px;
+  padding-bottom: 20px;
 }
 
 .clients-comments {
@@ -1520,6 +1532,7 @@ ul.social_icons li  a i{
 .clients-comments h4 {
   font-weight: 300;
   margin-top: 15px;
+  line-height: 22px;
 }
 
 
@@ -2535,8 +2548,31 @@ shortcodes page css
   margin-left: 15px;
 }
 
+.titulo-sonadores{
+  width: 65%;
+  margin: 0 auto;
+  padding-bottom: 2%;
+  font-size: 15px;
+  text-align: center;
+}
 
+.titulo-sonar{
+  padding-bottom: 0;
+}
 
+#casos-exito{
+  cursor: pointer;
+}
 
+.estilo{
+  margin-bottom: 30px;
+}
 
+.naranja{
+  color: #d96805;
+}
+
+.team .social_icons .fa-instagram {
+    background: #bc2a8d;
+}
 

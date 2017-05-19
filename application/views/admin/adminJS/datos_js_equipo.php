@@ -153,9 +153,9 @@
         var submit = true;
         ed = document.getElementById("editor");
         d = document.getElementById("Descripcion");
-        if (submit && ed.innerText.length <= 100)
+        if (submit && ed.innerText.length <= -1)
         {
-          alert('El Campo Descripcion debe contener mas de 100 caracteres');  
+          alert('El Campo Descripcion debe contener mas de 0 caracteres');  
           submit = false;
         }else{
           d.innerText = ed.innerHTML;

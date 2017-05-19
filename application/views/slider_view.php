@@ -28,7 +28,9 @@
 
                             <div class="col-sm-6 hidden-xs animation animated-item-4">
                                 <div class="slider-img">
+                                <?php  if($key->slide_urlpeque != NULL){?>
                                     <img src="<?php echo base_url(); ?>/file/img/<?php echo $key->slide_urlpeque;?>" class="img-responsive">
+                                <?php }?>
                                 </div>
                             </div>
 

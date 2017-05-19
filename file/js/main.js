@@ -25,6 +25,7 @@ jQuery(function($) {'use strict',
 		var $portfolio_selectors = $('.portfolio-filter >li>a');
 		var $portfolio = $('.portfolio-items');
 		$portfolio.isotope({
+			filter: '.video',
 			itemSelector : '.portfolio-item',
 			layoutMode : 'fitRows'
 		});
@@ -33,7 +34,7 @@ jQuery(function($) {'use strict',
 			$portfolio_selectors.removeClass('active');
 			$(this).addClass('active');
 			var selector = $(this).attr('data-filter');
-			$portfolio.isotope({ filter: selector });
+			$portfolio.isotope({ filter: selector, });
 			return false;
 		});
 	});

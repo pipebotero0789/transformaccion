@@ -25,6 +25,7 @@ class Inicio extends CI_Controller {
         $this->load->model('crud/Crud_eventos');
         $this->load->model('crud/Crud_comentario');
         $this->load->model('crud/Crud_parametria');
+        $this->load->model('crud/Crud_exito');
     }
 
 	public function index()
@@ -33,7 +34,6 @@ class Inicio extends CI_Controller {
 		$this->load->view('head_view');
 		$this->load->view('header_view', $this->traerDatosFooter());
 		$this->load->view('slider_view', $setDatos);
-		$this->load->view('inicio_view');
 		$this->load->view('footer_view');
 	}
 
@@ -44,21 +44,22 @@ class Inicio extends CI_Controller {
 		$this->load->view('footer_view');
 	}
 
-	public function educacion(){
+	public function informacion(){
 		$this->load->view('head_view');
 		$this->load->view('header_view', $this->traerDatosFooter());
 		$this->load->view('service_view');
 		$this->load->view('footer_view');
 	}
 
-	public function galeria(){
+	public function casosdeexito(){
+		$setDatos = array('Exito' => $this->Crud_exito->GetDatos());
 		$this->load->view('head_view');
 		$this->load->view('header_view', $this->traerDatosFooter());
-		$this->load->view('portafolio_view');
+		$this->load->view('portafolio_view', $setDatos);
 		$this->load->view('footer_view');
 	}
 
-	public function contacto(){
+	public function estilodevida(){
 		$this->load->view('head_view');
 		$this->load->view('header_view', $this->traerDatosFooter());
 		$this->load->view('contact_view');

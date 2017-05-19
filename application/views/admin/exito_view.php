@@ -51,7 +51,7 @@
                       </div>
                       
                       <div class="item form-group">
-                        <label class="control-label col-md-3 col-sm-3 col-xs-12" for="Estado">Estado<span class="required">*</span></label>
+                        <label class="control-label col-md-3 col-sm-3 col-xs-12" for="Estado">Estado <span class="required">*</span></label>
                         <div class="col-md-6 col-sm-6 col-xs-12">
                           <select class="form-control select2_single " id="Estado" name="Estado" tabindex="-1" required="required">
                             <option></option>
@@ -66,22 +66,50 @@
                       </div>
                       <!-- Small modal -->
                       <div class="item form-group">
-                        <label class="control-label col-md-3 col-sm-3 col-xs-12">Select Custom</label>
+                        <label class="control-label col-md-3 col-sm-3 col-xs-12">Foto 182px * 182px <span class="required">*</span>
+                        </label>
                         <div class="col-md-6 col-sm-6 col-xs-12">
-                          <input type="text" id="URL" name="URL" required="required" placeholder="" class="form-control col-md-7 col-xs-12" readonly="readonly" value="<?php echo (!is_null($datosCarga)) ? $datosCarga[0]->exito_ruta : '' ;?>">
+                          <input type="text" id="URL" name="URL" required="required" placeholder="" class="form-control col-md-7 col-xs-12" readonly="readonly" value="<?php echo (!is_null($datosCarga)) ? $datosCarga[0]->exito_url : '' ;?>">
                           <button type="button" class="btn btn-default" data-toggle="modal" data-target=".bs-example-modal-sm" >Cargar Imagen</button>
                         </div>
                       </div>
-                      <!-- Small modal -->
+
                       <div class="item form-group">
-                        <label class="control-label col-md-3 col-sm-3 col-xs-12">Select Custom</label>
+                        <label class="control-label col-md-3 col-sm-3 col-xs-12" for="profesion">Profesion <span class="required">*</span>
+                        </label>
                         <div class="col-md-6 col-sm-6 col-xs-12">
-                          <input type="text" id="URL1" name="URL1" required="required" placeholder="" class="form-control col-md-7 col-xs-12" readonly="readonly" value="<?php echo (!is_null($datosCarga)) ? $datosCarga[0]->exito_url : '' ;?>">
-                          <button type="button" class="btn btn-default" data-toggle="modal" data-target=".bs-example-modal-sm1" >Cargar Imagen</button>
+                          <input id="profesion" class="form-control col-md-7 col-xs-12" name="profesion" placeholder="" required="required" type="text" data-validation-length="3-12" data-validation-error-msg="User name has to be an alphanumeric value (3-12 chars)" value="<?php echo (!is_null($datosCarga)) ? $datosCarga[0]->exito_profesion : '' ;?>">
                         </div>
                       </div>
-                      <!--text area editor -->
+
                       <div class="item form-group">
+                        <label class="control-label col-md-3 col-sm-3 col-xs-12" for="Nivel">Nivel <span class="required">*</span>
+                        </label>
+                        <div class="col-md-6 col-sm-6 col-xs-12">
+                          <input id="Nivel" class="form-control col-md-7 col-xs-12" name="Nivel" placeholder="" required="required" type="text" data-validation-length="3-12" data-validation-error-msg="User name has to be an alphanumeric value (3-12 chars)" value="<?php echo (!is_null($datosCarga)) ? $datosCarga[0]->exito_nivel : '' ;?>">
+                        </div>
+                      </div>
+
+                      <div class="item form-group">
+                        <label class="control-label col-md-3 col-sm-3 col-xs-12" for="Pais">Pais <span class="required">*</span>
+                        </label>
+                        <div class="col-md-6 col-sm-6 col-xs-12">
+                          <input id="Pais" class="form-control col-md-7 col-xs-12" name="Pais" placeholder="" required="required" type="text" data-validation-length="3-12" data-validation-error-msg="User name has to be an alphanumeric value (3-12 chars)" value="<?php echo (!is_null($datosCarga)) ? $datosCarga[0]->exito_pais : '' ;?>">
+                        </div>
+                      </div>
+
+                      <div class="item form-group">
+                        <label class="control-label col-md-3 col-sm-3 col-xs-12" for="Link">Link</span>
+                        </label>
+                        <div class="col-md-6 col-sm-6 col-xs-12">
+                          <input id="Link" class="form-control col-md-7 col-xs-12" name="Link" placeholder="" type="text" data-validation-length="3-12" data-validation-error-msg="User name has to be an alphanumeric value (3-12 chars)" value="<?php echo (!is_null($datosCarga)) ? $datosCarga[0]->exito_link : '' ;?>">
+                        </div>
+                      </div>
+
+                      <div class="item form-group">
+                      <label class="control-label col-md-3 col-sm-3 col-xs-12" for="Link">Descripción</span>
+                        </label>
+                        <div class="col-md-6 col-sm-6 col-xs-12">
                           <div class="x_content">
                             <div id="alerts"></div>
                             <div class="btn-toolbar editor" data-role="editor-toolbar" data-target="#editor">
@@ -145,12 +173,13 @@
                                 <a class="btn" data-edit="redo" title="Redo (Ctrl/Cmd+Y)"><i class="fa fa-repeat"></i></a>
                               </div>
                             </div>
-                            <div id="editor" class="editor-wrapper" required="required"><?php echo (!is_null($datosCarga)) ? $datosCarga[0]->exito_descripcion : '' ;?></div>                 
+                            <div id="editor" class="editor-wrapper"><?php echo (!is_null($datosCarga)) ? $datosCarga[0]->exito_descripcion : '' ;?></div>                 
+                          </div>
                           </div>
                       </div>
                       <div class="item form-group">
                         <div class="col-md-6 col-sm-6 col-xs-12">
-                          <textarea id="Descripcion" required="required" name="Descripcion" class="form-control col-md-7 col-xs-12" value="" style="visibility:hidden"></textarea>
+                          <textarea id="Descripcion" name="Descripcion" class="form-control col-md-7 col-xs-12" value="" style="visibility:hidden"></textarea>
                         </div>
                       </div>
                       <!--text area editor -->
@@ -208,7 +237,9 @@
                               <tr>
                                 <th>Nombre</th>
                                 <th>Imagen</th>
-                                <th>Estado</th>
+                                <th>profesion</th>
+                                <th>Nivel</th>
+                                <th>Pais</th>
                                 <th>Modificar</th>
                               </tr>
                             </thead>
@@ -218,7 +249,10 @@
                               foreach ($Slide as $key) {
                                 echo '<tr>';
                                   echo '<td>'.$key->exito_nombre.'</td>';
-                                  echo '<td><img src="'.base_url('file/img').'/'.$key->exito_ruta.'" height="42" width="42"></td>';
+                                  echo '<td><img src="'.base_url('file/img').'/'.$key->exito_url.'" height="42" width="42"></td>';
+                                  echo '<td>'.$key->exito_profesion.'</td>';
+                                  echo '<td>'.$key->exito_nivel.'</td>';
+                                  echo '<td>'.$key->exito_pais.'</td>';
                                   if ($key->estado_id == 1) {
                                     echo "<td>activo</td>";
                                   }
@@ -231,6 +265,8 @@
                               }
                               }else{
                                     echo '<tr>';
+                                    echo '<td> NO HAY DATOS</td>';
+                                    echo '<td> NO HAY DATOS</td>';
                                     echo '<td> NO HAY DATOS</td>';
                                     echo '<td> NO HAY DATOS</td>';
                                     echo '<td> NO HAY DATOS</td>';
@@ -260,7 +296,7 @@
           <h4 class="modal-title" id="myModalLabel2">Cargar imagen</h4>
         </div>
         <div class="modal-body">
-          <form action="<?php echo base_url(); ?>/admin/Home/upload/360/219/URL" class="dropzone" id="my-awesome-dropzone" ></form>
+          <form action="<?php echo base_url(); ?>/admin/Home/upload/182/182/URL" class="dropzone" id="my-awesome-dropzone" ></form>
         </div>
         <div id="AlertaURL"></div>
         <div class="modal-footer">
@@ -269,27 +305,6 @@
       </div>
     </div>
   </div>
-  <!--modal imagen -->
-  <div class="modal fade bs-example-modal-sm1" tabindex="-1" role="dialog" aria-hidden="true">
-    <div class="modal-dialog modal-sm">
-      <div class="modal-content">
-        <div class="modal-header">
-          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span>
-          </button>
-          <h4 class="modal-title" id="myModalLabel2">Cargar imagen</h4>
-        </div>
-        <div class="modal-body">
-          <form action="<?php echo base_url(); ?>/admin/Home/upload/1159/455/URL1" class="dropzone" id="my-awesome-dropzone" ></form>
-        </div>
-        <div id="AlertaURL1"></div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-        </div>
-      </div>
-    </div>
-  </div>
-  
-  <!--modal imagen final-->
 
     <!-- /page content -->
     <?php 

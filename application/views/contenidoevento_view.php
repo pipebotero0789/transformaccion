@@ -110,7 +110,7 @@
                                 foreach ($porfecha as $key) {
                                     echo '<li><i class="fa fa-angle-double-right"></i><b> '.$key['mes'].'<span class="pull-right">('.count($key['datos']).')</span></a></b></li>';
                                     foreach ($key['datos'] as $key1) {
-                                        echo '<a href="#">'.$key1['evento_nombre'].'</a>';
+                                        echo '<a href="'.base_url().'/Inicio/conteEvento/'.$key1['evento_id'].'/evento">'.$key1['evento_nombre'].'</a>';
                                     }
                                 }
                                 ?>

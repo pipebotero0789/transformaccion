@@ -11,6 +11,7 @@ class ContenidoAdmin extends CI_Controller {
         $this->load->model('crud/Crud_parametria');
         $this->load->model('crud/Crud_eventos');
         $this->load->model('crud/Crud_estado');
+        $this->load->model('crud/Crud_exito');
         $this->load->model('crud/Crud_usuario');
         $this->load->model('crud/Crud_rol');
         if (is_null($this->session->userdata('id'))) {
@@ -197,5 +198,49 @@ class ContenidoAdmin extends CI_Controller {
             'datosCarga' => $datosSlider
         );
         $this->load->view('admin/evento_view',$dataSend);
+    }
+
+    public function exito($bandera = null)
+    {
+        $this->load->view('admin/head_view');
+        $dataSendNav = array(
+            "datos" =>  array(
+                'noticias' => $this->Crud_noticias->GetDatosTotales(5) 
+            )
+        );
+        $datoNav = $this->load->view('admin/nav_view',$dataSendNav,TRUE);
+        $datoDatos = $this->load->view('admin/adminJS/datos_js_equipo',null,TRUE);
+        $dataSendFoot = array(
+            "datos" => $datoDatos
+        );
+        $dataFooter = $this->load->view('admin/footer_view',$dataSendFoot,TRUE);
+        switch ($bandera) {
+            case -1:
+                $mensaje = 'Carga Exitosa';
+                $datosSlider = null;
+            break;
+            case -2:
+                $mensaje = 'Carga Fallida intentelo de nuevo';
+                $datosSlider = null;
+            break;     
+            case null:
+                $mensaje = '';
+                $datosSlider = null;
+            break;  
+            default:
+                $mensaje = '';
+                $where = array('exito_id' => $bandera);
+                $datosSlider = $this->Crud_exito->GetDatos($where);
+            break;
+        }
+        $dataSend = array(
+            "footer" => $dataFooter,
+            'nav' => $datoNav,
+            'Slide' => $this->Crud_exito->GetDatosTotal(),
+            'DatosEstado' => $this->Crud_estado->GetDatosTotal(),
+            'error' => $mensaje,
+            'datosCarga' => $datosSlider
+        );
+        $this->load->view('admin/exito_view',$dataSend);
     }
 }

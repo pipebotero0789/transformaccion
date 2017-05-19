@@ -1,123 +1,79 @@
-<section id="portfolio">
-        <div class="container">
-            <div class="center">
-               <h2>Portfolio</h2>
-               <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut <br> et dolore magna aliqua. Ut enim ad minim veniam</p>
+       <div class="container"> 
+          <div class="clients-area center wow fadeInDown">
+              <h2 class="naranja">Personas Respetadas, Respetan Amway</h2>
+          </div>
+          <div class="row">
+            <div class="col-md-6 col-lg-6 col-sm-12 col-sm-12">
+              <center> 
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/ZRCqGXPiRUw" frameborder="0" allowfullscreen></iframe>
+              </center>
             </div>
-        
-            <ul class="portfolio-filter text-center">
-                <li><a class="btn btn-default active" href="#" data-filter="*">All Works</a></li>
-                <li><a class="btn btn-default" href="#" data-filter=".bootstrap">Creative</a></li>
-                <li><a class="btn btn-default" href="#" data-filter=".html">Photography</a></li>
-                <li><a class="btn btn-default" href="#" data-filter=".wordpress">Web Development</a></li>
-            </ul><!--/#portfolio-filter-->
+            <div class="col-md-6 col-lg-6 col-sm-12 col-sm-12">
+                <p class="lead" align="justify">Amway la empresa que profesionalizo y creo la industria de Network Marketing, es muy respetada y admirada por personalidades de talla mundial. Ejemplos como:</p>
+                <p class="lead" align="justify">Jack Haire. Editor Time,
+                Dr. Noel Brown. Presidente Amigos de las Naciones Unidas,
+                Sam Jadallah. Vicepresidente de Ventas Microsoft,
+                Stephen Covey. Autor del best seller Los 7 hábitos de las personas altamente efectiva.
+                Entre muchos otros.</p>
+                <p class="lead" align="justify">Amway no se encuentra en el negocio de la tecnología, ni es una moda y ni es algo del pasado. Es un negocio basado en principios de gente ayudando a personas ayudarse a sí mismas a través deconcepto económico del capitalismo solidario.</p>
+            </div>
+          </div>
 
-            <div class="row">
-                <div class="portfolio-items">
-                    <div class="portfolio-item apps col-xs-12 col-sm-4 col-md-3">
-                        <div class="recent-work-wrap">
-                            <img class="img-responsive" src="images/portfolio/recent/item1.png" alt="">
-                            <div class="overlay">
-                                <div class="recent-work-inner">
-                                    <h3><a href="#">Business theme</a></h3>
-                                    <p>There are many variations of passages of Lorem Ipsum available, but the majority</p>
-                                    <a class="preview" href="images/portfolio/full/item1.png" rel="prettyPhoto"><i class="fa fa-eye"></i> View</a>
-                                </div> 
-                            </div>
-                        </div>
-                    </div><!--/.portfolio-item-->
-
-                    <div class="portfolio-item joomla bootstrap col-xs-12 col-sm-4 col-md-3">
-                        <div class="recent-work-wrap">
-                            <img class="img-responsive" src="images/portfolio/recent/item2.png" alt="">
-                            <div class="overlay">
-                                <div class="recent-work-inner">
-                                    <h3><a href="#">Business theme</a></h3>
-                                    <p>There are many variations of passages of Lorem Ipsum available, but the majority</p>
-                                    <a class="preview" href="images/portfolio/full/item2.png" rel="prettyPhoto"><i class="fa fa-eye"></i> View</a>
-                                </div> 
-                            </div>
-                        </div>          
-                    </div><!--/.portfolio-item-->
-
-                    <div class="portfolio-item bootstrap wordpress col-xs-12 col-sm-4 col-md-3">
-                        <div class="recent-work-wrap">
-                            <img class="img-responsive" src="images/portfolio/recent/item3.png" alt="">
-                            <div class="overlay">
-                                <div class="recent-work-inner">
-                                    <h3><a href="#">Business theme</a></h3>
-                                    <p>There are many variations of passages of Lorem Ipsum available, but the majority</p>
-                                    <a class="preview" href="images/portfolio/full/item3.png" rel="prettyPhoto"><i class="fa fa-eye"></i> View</a>
-                                </div> 
-                            </div>
-                        </div>        
-                    </div><!--/.portfolio-item-->
-
-                    <div class="portfolio-item joomla wordpress apps col-xs-12 col-sm-4 col-md-3">
-                        <div class="recent-work-wrap">
-                            <img class="img-responsive" src="images/portfolio/recent/item4.png" alt="">
-                            <div class="overlay">
-                                <div class="recent-work-inner">
-                                    <h3><a href="#">Business theme</a></h3>
-                                    <p>There are many variations of passages of Lorem Ipsum available, but the majority</p>
-                                    <a class="preview" href="images/portfolio/full/item4.png" rel="prettyPhoto"><i class="fa fa-eye"></i> View</a>
-                                </div> 
-                            </div>
-                        </div>           
-                    </div><!--/.portfolio-item-->
-          
-                    <div class="portfolio-item joomla html bootstrap col-xs-12 col-sm-4 col-md-3">
-                        <div class="recent-work-wrap">
-                            <img class="img-responsive" src="images/portfolio/recent/item5.png" alt="">
-                            <div class="overlay">
-                                <div class="recent-work-inner">
-                                    <h3><a href="#">Business theme</a></h3>
-                                    <p>There are many variations of passages of Lorem Ipsum available, but the majority</p>
-                                    <a class="preview" href="images/portfolio/full/item5.png" rel="prettyPhoto"><i class="fa fa-eye"></i> View</a>
-                                </div> 
-                            </div>
-                        </div>      
-                    </div><!--/.portfolio-item-->
-
-                    <div class="portfolio-item wordpress html apps col-xs-12 col-sm-4 col-md-3">
-                        <div class="recent-work-wrap">
-                            <img class="img-responsive" src="images/portfolio/recent/item6.png" alt="">
-                            <div class="overlay">
-                                <div class="recent-work-inner">
-                                    <h3><a href="#">Business theme</a></h3>
-                                    <p>There are many variations of passages of Lorem Ipsum available, but the majority</p>
-                                    <a class="preview" href="images/portfolio/full/item6.png" rel="prettyPhoto"><i class="fa fa-eye"></i> View</a>
-                                </div> 
-                            </div>
-                        </div>         
-                    </div><!--/.portfolio-item-->
-
-                    <div class="portfolio-item wordpress html col-xs-12 col-sm-4 col-md-3">
-                        <div class="recent-work-wrap">
-                            <img class="img-responsive" src="images/portfolio/recent/item7.png" alt="">
-                            <div class="overlay">
-                                <div class="recent-work-inner">
-                                    <h3><a href="#">Business theme</a></h3>
-                                    <p>There are many variations of passages of Lorem Ipsum available, but the majority</p>
-                                    <a class="preview" href="images/portfolio/full/item7.png" rel="prettyPhoto"><i class="fa fa-eye"></i> View</a>
-                                </div> 
-                            </div>
-                        </div>          
-                    </div><!--/.portfolio-item-->
-
-                    <div class="portfolio-item wordpress html bootstrap col-xs-12 col-sm-4 col-md-3">
-                        <div class="recent-work-wrap">
-                            <img class="img-responsive" src="images/portfolio/recent/item8.png" alt="">
-                            <div class="overlay">
-                                <div class="recent-work-inner">
-                                    <h3><a href="#">Business theme</a></h3>
-                                    <p>There are many variations of passages of Lorem Ipsum available, but the majority</p>
-                                    <a class="preview" href="images/portfolio/full/item8.png" rel="prettyPhoto"><i class="fa fa-eye"></i> View</a>
-                                </div> 
-                            </div>
-                        </div>          
-                    </div><!--/.portfolio-item-->
+        <div class="clients-area center wow fadeInDown">
+                <h2 class="naranja">Casos de Éxito</h2>
+            </div>
+                <?php
+                    foreach ($Exito as $key) {
+                      if ($key->exito_link==NULL) {
+                ?> 
+                <div class="col-md-4 wow fadeInDown" data-toggle="modal" data-target="#myModal<?php echo $key->exito_id; ?>">
+                    <div class="clients-comments">
+                        <center>
+                            <img id="casos-exito" src="<?php echo base_url(); ?>file/img/<?php echo $key->exito_url;?>" class="img-circle" alt="">
+                        </center>
+                        <center>
+                            <h4><span><?php echo $key->exito_nombre;?><br></span> <?php echo $key->exito_nivel;?><br><b> <?php echo $key->exito_pais;?></b></h4>
+                        </center>
+                    </div>
                 </div>
-            </div>
-        </div>
-    </section><!--/#portfolio-item-->
+
+                <div id="myModal<?php echo $key->exito_id; ?>" class="modal fade" role="dialog">
+                    <div class="modal-dialog modal-lg">
+                        <!-- Modal content-->
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                            <h4 class="modal-title"><?php echo $key->exito_nombre;?></h4>
+                          </div>
+                          <div class="modal-body">
+                            <p><?php echo $key->exito_descripcion;?></p>
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                          </div>
+                        </div>
+                    </div>
+                </div>
+
+                <?php    
+                      }else{
+                ?>
+                  <a href="<?php echo $key->exito_link; ?>" target="_blank">
+                    <div class="col-md-4 wow fadeInDown">
+                      <div class="clients-comments">
+                          <center>
+                              <img src="<?php echo base_url(); ?>file/img/<?php echo $key->exito_url;?>" class="img-circle" alt="">
+                          </center>
+                          <center>
+                              <h4><span><?php echo $key->exito_nombre;?><br></span> <?php echo $key->exito_nivel;?><br><b> <?php echo $key->exito_pais;?></b></h4>
+                          </center>
+                      </div>
+                  </div>
+                </a>
+                <?php         
+                      }}
+                ?>
+
+           </div>
+
+        </div><!--/.container-->

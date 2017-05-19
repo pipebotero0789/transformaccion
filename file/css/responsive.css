@@ -1,5 +1,5 @@
 /* lg */ 
-@media (min-width: 1200px) {
+@media (min-width: 1920px) {
  /* Make Navigation Toggle on Desktop Hover */
   .dropdown:hover .dropdown-menu {
       display: block;
@@ -11,6 +11,10 @@
     margin-left: -10px;
     margin-right: -10px;
   }
+
+  #main-slider .carousel .item {
+    height: 776px;
+  } 
 
   
 

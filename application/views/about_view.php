@@ -7,32 +7,27 @@
 			<div id="about-slider fadeInDown">
 				<div id="carousel-slider" class="carousel slide" data-ride="carousel">
 					<!-- Indicators -->
-				  	<ol class="carousel-indicators visible-xs">
-					    <li data-target="#carousel-slider" data-slide-to="0" class="active"></li>
-					    <li data-target="#carousel-slider" data-slide-to="1"></li>
-					    <li data-target="#carousel-slider" data-slide-to="2"></li>
-				  	</ol>
 
 					<div class="carousel-inner">
 						<div class="item active">
-							<p class="titulo-sonadores">De los pocos que deciden aventurarse y fijar su propio norte.  </p>
+							<p class="titulo-sonadores">Auténticos aventureros que fijamos nuestro propio norte  </p>
 							<center>
 							<img src="<?php echo base_url()?>file/images/aventureros.png" class="img-responsive" alt="">
 							</center> 
 					   </div>
 					   <div class="item">
-						   	<p class="titulo-sonadores">No solo somos compañeros de trabando, somos más que un equipo.</p>
+						   	<p class="titulo-sonadores">Mas que un equipo</p>
 						   	<center>
 							<img src="<?php echo base_url()?>file/images/equipo.png" class="img-responsive" alt="">
 							</center> 
 					   </div> 
 						<div class="item">
-						   	<p class="titulo-sonadores">De los que van con una sonrisa, porque amamos lo hacemos y hacemos lo que amamos.</p>
+						   	<p class="titulo-sonadores">Una sonrisa que amamos lo que hacemos y hacemos lo que amamos</p>
 						   	<center>
 							<img src="<?php echo base_url()?>file/images/estilodevida.png" class="img-responsive" alt=""> 
 							</center>
 					   </div>
-					   <div class="item">
+					  <!--  <div class="item">
 						   	<p class="titulo-sonadores">Afortunados, por tener la posibilidad de compartir en familia de cada momento inolvidable.  </p>
 						   	<center>
 							<img src="<?php echo base_url()?>file/images/Familia.png" class="img-responsive" alt="">
@@ -44,55 +39,55 @@
 							<img src="<?php echo base_url()?>file/images/felices.png" class="img-responsive" alt=""> 
 							</center>
 					   </div>
-					   <div class="item">
-						   	<p class="titulo-sonadores">Independientes, somos autónomos, somos nuestros propios jefes. </p>
+ -->					   <div class="item">
+						   	<p class="titulo-sonadores">Amigos </p>
 						   	<center>
 							<img src="<?php echo base_url()?>file/images/jovenesSinJefes.png" class="img-responsive" alt="">
 							</center> 
 					   </div> 
 					   <div class="item">
-						   	<p class="titulo-sonadores">Capaces de explotar al máximo nuestro potencial inspirando de manera natural. </p>
+						   	<p class="titulo-sonadores">Liderazgo Empresarial </p>
 						   	<center>
 							<img src="<?php echo base_url()?>file/images/liderazgo.png" class="img-responsive" alt="">
 							</center> 
 					   </div> 
 						<div class="item">
-						   	<p class="titulo-sonadores">Felices por vivir de otra manera, de una mejor manera, por hacer del tiempo nuestro mejor amigo. </p>
+						   	<p class="titulo-sonadores">Familia </p>
 						   	<center>
 							<img src="<?php echo base_url()?>file/images/otraformadevivir.png" class="img-responsive" alt=""> 
 							</center>
 					   </div>
 					   <div class="item">
-						   	<p class="titulo-sonadores">Personas que se educan y retan continuamente, hasta dar el máximo de sí. </p>
+						   	<p class="titulo-sonadores">Educables </p>
 						   	<center>
 							<img src="<?php echo base_url()?>file/images/profesionalismo.png" class="img-responsive" alt="">
 							</center> 
 					   </div> 
 						<div class="item">
-						   	<p class="titulo-sonadores">De los que dan el primer paso y labran su propio camino. </p>
+						   	<p class="titulo-sonadores">Los que damos el primer paso y labramos nuestro propio camino </p>
 						   	<center>
 							<img src="<?php echo base_url()?>file/images/rebeldes.png" class="img-responsive" alt=""> 
 							</center>
 					   </div>
 					   <div class="item">
-						   	<p class="titulo-sonadores">¿Acaso es soñar dejarte llevar por tus pasiones y tus metas al punto de jugarnos la vida? </p>
+						   	<p class="titulo-sonadores">Soñadores</p>
 						   	<center>
 							<img src="<?php echo base_url()?>file/images/recompensa.png" class="img-responsive" alt="">
 							</center> 
 					   </div>
-					   <div class="item">
+					   <!-- <div class="item">
 						   	<p class="titulo-sonadores">Una muestra fehaciente de que los sueños pueden hacerse realidad. </p>
 						   	<center>
 							<img src="<?php echo base_url()?>file/images/sonadores.png" class="img-responsive" alt="">
 							</center> 
-					   </div>  
-					</div>
+					   </div> -->
+	  					</div>
 					
-					<a class="left carousel-control hidden-xs" href="#carousel-slider" data-slide="prev">
+					<a class="left carousel-control" href="#carousel-slider" data-slide="prev">
 						<i class="fa fa-angle-left"></i> 
 					</a>
 					
-					<a class=" right carousel-control hidden-xs" href="#carousel-slider" data-slide="next">
+					<a class=" right carousel-control" href="#carousel-slider" data-slide="next">
 						<i class="fa fa-angle-right"></i> 
 					</a>
 				</div> <!--/#carousel-slider-->

@@ -5,7 +5,7 @@
           <div class="row">
             <div class="col-md-6 col-lg-6 col-sm-12 col-sm-12">
               <center> 
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/ZRCqGXPiRUw" frameborder="0" allowfullscreen></iframe>
+                <iframe width="100%" height="315" src="https://www.youtube.com/embed/ZRCqGXPiRUw" frameborder="0" allowfullscreen></iframe>
               </center>
             </div>
             <div class="col-md-6 col-lg-6 col-sm-12 col-sm-12">

@@ -20,9 +20,9 @@
                     <ul class="nav navbar-nav">
                         <li <?= ($this->uri->segment(1).'/'.$this->uri->segment(2) == 'Inicio/index' or $this->uri->segment(1) == '' ) ? 'class="active"' : '' ?>><a href="<?php echo base_url() ?>Inicio/index" >Inicio</a></li>
                         <li <?= ($this->uri->segment(1).'/'.$this->uri->segment(2) == 'Inicio/quienes') ? 'class="active"' : '' ?>><a href="<?php echo base_url() ?>Inicio/quienes">¿Quiénes somos?</a></li>
-                        <li <?= ($this->uri->segment(1).'/'.$this->uri->segment(2) == 'Inicio/educacion') ? 'class="active"' : '' ?>><a href="<?php echo base_url() ?>Inicio/informacion">Información</a></li>
-                        <li <?= ($this->uri->segment(1).'/'.$this->uri->segment(2) == 'Inicio/galeria') ? 'class="active"' : '' ?>><a href="<?php echo base_url() ?>Inicio/casosdeexito">Casos de éxito</a></li>
-                        <li <?= ($this->uri->segment(1).'/'.$this->uri->segment(2) == 'Inicio/contacto') ? 'class="active"' : '' ?>><a href="<?php echo base_url() ?>Inicio/estilodevida">Estilo de vida</a></li>
+                        <li <?= ($this->uri->segment(1).'/'.$this->uri->segment(2) == 'Inicio/informacion') ? 'class="active"' : '' ?>><a href="<?php echo base_url() ?>Inicio/informacion">Información</a></li>
+                        <li <?= ($this->uri->segment(1).'/'.$this->uri->segment(2) == 'Inicio/casosdeexito') ? 'class="active"' : '' ?>><a href="<?php echo base_url() ?>Inicio/casosdeexito">Casos de éxito</a></li>
+                        <li <?= ($this->uri->segment(1).'/'.$this->uri->segment(2) == 'Inicio/estilodevida') ? 'class="active"' : '' ?>><a href="<?php echo base_url() ?>Inicio/estilodevida">Estilo de vida</a></li>
                         <li <?= ($this->uri->segment(1).'/'.$this->uri->segment(2) == 'Inicio/eventos') ? 'class="active"' : '' ?>><a href="<?php echo base_url() ?>Inicio/eventos">Eventos</a></li> 
                     </ul>
                 </div>

@@ -5,17 +5,17 @@
      <div class="row">
             <div class="col-md-6 col-lg-6 col-sm-12 col-sm-12">
               <center> 
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/ghbpShHzeZ0?ecver=1" frameborder="0" allowfullscreen></iframe>
+                <iframe width="100%" height="315" src="https://www.youtube.com/embed/bmXUHG6iqU4?ecver=1" frameborder="0" allowfullscreen></iframe>
               </center>
             </div>
             <div class="col-md-6 col-lg-6 col-sm-12 col-sm-12">
-                <p class="lead">Amway la empresa que profesionalizo y creo la industria de Network Marketing, es muy respetada y admirada por personalidades de talla mundial. Ejemplos como:</p>
-                <p class="lead">Jack Haire. Editor Time,
+                <p class="lead" align="justify">Amway la empresa que profesionalizo y creo la industria de Network Marketing, es muy respetada y admirada por personalidades de talla mundial. Ejemplos como:</p>
+                <p class="lead" align="justify">Jack Haire. Editor Time,
                 Dr. Noel Brown. Presidente Amigos de las Naciones Unidas,
                 Sam Jadallah. Vicepresidente de Ventas Microsoft,
                 Stephen Covey. Autor del best seller Los 7 hábitos de las personas altamente efectiva.
                 Entre muchos otros.</p>
-                <p class="lead">Amway no se encuentra en el negocio de la tecnología, ni es una moda y ni es algo del pasado. Es un negocio basado en principios de gente ayudando a personas ayudarse a sí mismas a traconcepto económico del capitalismo solidario.</p>
+                <p class="lead" align="justify">Amway no se encuentra en el negocio de la tecnología, ni es una moda y ni es algo del pasado. Es un negocio basado en principios de gente ayudando a personas ayudarse a sí mismas a traconcepto económico del capitalismo solidario.</p>
             </div>
           </div>
     <div class="row">
@@ -53,9 +53,6 @@
             </div>
             <div class="col-sm-12 col-xs-12 col-md-3 col-lg-3 videos">
                 <iframe src="https://www.youtube.com/embed/uC-cIFOE5PE?ecver=1" frameborder="0" allowfullscreen></iframe>
-            </div>
-            <div class="col-sm-12 col-xs-12 col-md-3 col-lg-3 videos">
-                <iframe src="https://www.youtube.com/embed/bmXUHG6iqU4?ecver=1" frameborder="0" allowfullscreen></iframe>
             </div>
         </div>
     </div>
